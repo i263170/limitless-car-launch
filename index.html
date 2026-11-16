@@ -3,72 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Auto Haven </title>
+    <title>Auto Haven</title>
 </head>
 <body>
+    <nav style="background-color: #333; padding: 10px;">
+        <a href="index.html" style="color: white; margin-right: 15px; text-decoration: none;">Home</a>
+        <a href="gallery.html" style="color: white; margin-right: 15px; text-decoration: none;">Gallery</a>
+        <a href="contact.html" style="color: white; text-decoration: none;">Contact</a>
+    </nav>
+
     <h1>Limitless</h1>
     <h2>Specification : </h2>
     <p>The Honda City is a metallic blue, five-seater petrol sedan powered by a smooth 1500cc engine achieving about 17 km per litre.
       It features a modern exterior, a spacious interior with a touchscreen and automatic climate control, and a price tag ranging from
       PKR 47.37 to 61.49 lacs.</p>
-    <body>
-  <table border="1">
-    <thead>
-      <tr>
-        <th>Car Model</th>
-        <th>Body Style</th>
-        <th>Powertrain / Drivetrain</th>
-        <th>Engine / Motor Size</th>
-        <th>Power Output</th>
-        <th>Curb Weight</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>2026 Xpeng G9L Series (e.g., 660/702/755)</td>
-        <td>5-door SUV</td>
-        <td>Electric (RR / F&amp;RA)</td>
-        <td>—</td>
-        <td>367 – 585 PS (270 – 430 kW)</td>
-        <td>—</td>
-      </tr>
-      <tr>
-        <td>2026 Hyundai Avante Series (Hybrid / 2.0)</td>
-        <td>4-door Sedan</td>
-        <td>Hybrid / Petrol (FF, 6A)</td>
-        <td>1598 – 1999 cm³</td>
-        <td>149 – 157 PS (110 – 115 kW)</td>
-        <td>1350 kg (2.0)</td>
-      </tr>
-    </tbody>
-  </table>
-  </body>
-  <h3>Image of car :</h3>
-
-<img src="images/Limitless.jpg"  alt="car picture">
-
-<body>
-
-  <a href="checkout.html" style="display: inline-block; padding: 12px 24px; background-color: #ff6600; color: white; text-decoration: none; font-family: Arial, sans-serif; font-weight: bold; border-radius: 5px;">
-   Buy Now
-   <button onclick="sayHello()"></button>
-
-<script>
-  function sayHello() {
-    console.log("Say Hello button was clicked");
-    window.alert("Hello! Welcome to my page.");
-  }
-</script>
-
-
-
-  </a>
-
-</body>
-
-
-
-
     
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Car Model</th>
+          <th>Body Style</th>
+          <th>Powertrain / Drivetrain</th>
+          <th>Engine / Motor Size</th>
+          <th>Power Output</th>
+          <th>Curb Weight</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>2026 Xpeng G9L Series</td>
+          <td>5-door SUV</td>
+          <td>Electric (RR / F&RA)</td>
+          <td>—</td>
+          <td>367 – 585 PS (270 – 430 kW)</td>
+          <td>—</td>
+        </tr>
+        <tr>
+          <td>2026 Hyundai Avante Series</td>
+          <td>4-door Sedan</td>
+          <td>Hybrid / Petrol (FF, 6A)</td>
+          <td>1598 – 1999 cm³</td>
+          <td>149 – 157 PS (110 – 115 kW)</td>
+          <td>1350 kg (2.0)</td>
+        </tr>
+      </tbody>
+    </table>
+    
+    <h3>Image of car :</h3>
+    <img src="images/Limitless.jpg" alt="car picture">
+    <br><br>
+    
+    <button onclick="sayHello()" style="padding: 12px 24px; background-color: #ff6600; color: white; border: none; font-weight: bold; border-radius: 5px; cursor: pointer;">
+       Buy Now
+    </button>
+
+    <script>
+      function sayHello() {
+        console.log("Say Hello button was clicked");
+        window.alert("Hello! Welcome to Auto Haven.");
+      }
+    </script>
 </body>
 </html>
